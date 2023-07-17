@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+
+}
+
+
+
+
+
+/* ===================head section start here */
+
+.head {
+    padding-inline:   6.25rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.head  a {
+
+    color: #DCDCDC;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.head-right{
+    display: flex;
+    gap: 0.94rem;
+    align-items: center;
+}
+.head-right hr{
+    border-left:1px solid #d4d0d0;
+    height: 50px;
+}
+#social:hover{
+    color: #87C332 !important;
+
+}
+nav{
+    display: flex;
+    padding-inline: 6.25rem;
+    padding-block: 1.69rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.menus ul{
+    display: flex;
+    align-items: center;
+    gap: 2.25rem;
+    list-style: none;
+    margin: 0;
+
+
+}
+
+.menus ul li a{
+    color: var(--light-gray, #7F7F7F);
+font-family: Montserrat;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.menus ul li a:hover,
+.menus ul li a.active:hover {
+    color: #87C332;
+     position: relative;
+
+}
+
+.menus ul li a:hover:after,
+.menus ul li a.active:hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 3px;
+    background-color: #87C332; /* Red color */
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.menus ul li a:hover strong,
+.menus ul li a.active:hover strong {
+    font-weight: bold;
+
+}
+
+.menus ul li a:hover:after,
+.menus ul li a.active:hover:after {
+    width: 100%;
+
+
+}
+
+.get-quote a{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 10.3125rem;
+background: var(--green, #87C332);
+padding: 0.88rem 2.75rem;
+
+}
+.get-quote a:hover{
+    color: #87C332;
+    background-color: white;
+    filter: drop-shadow(20px 20px 100px #87C332);
+}
+
+
+
+
+
+
+/* ===================================header section ends here */
