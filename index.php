@@ -19,6 +19,42 @@
 
         ?>
 
+
+        <section class="index-hero">
+            <div class="hero-left">
+                    <h3>India's First <img src="img/heropin.svg" alt=""></h3>
+                    <h1>CARBON OFF</h1>
+                    <h1><span>NATURE</span> ON</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisi ng elit. Mauris lacinia</p>
+                    <div class="get-quote">
+                        <a href="#">Get A Quote</a>
+                    </div>
+            </div>
+            <div class="hero-right">
+                <img src="img/heroimg.svg" alt="">
+                <img src="img/heroshape.svg" alt="" id="heroshape">
+
+            </div>
+        </section>
+
+
+        <section class="why-choose-us">
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

@@ -13,9 +13,7 @@ a {
 
 }
 
-body {
-
-}
+body {}
 
 
 
@@ -23,46 +21,58 @@ body {
 
 /* ===================head section start here */
 
+
+
 .head {
-    padding-inline:   6.25rem;
+    padding-inline: 6.25rem;
     background-color: #333333;
     display: flex;
     justify-content: space-between;
     background-size: cover;
     align-items: center;
 
+
 }
 
-.head  a {
+.head a {
 
     color: #DCDCDC;
-font-family: Montserrat;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.head-right{
+
+.head-right {
     display: flex;
     gap: 0.94rem;
     align-items: center;
 }
-.head-right hr{
-    border-left:1px solid #d4d0d0;
-    height: 50px;
+
+.head-right hr {
+    border-left: 1px solid #d4d0d0;
+    height: 15px;
 }
-#social:hover{
+
+#social:hover {
     color: #87C332 !important;
 
 }
-nav{
+
+nav {
     display: flex;
     padding-inline: 6.25rem;
     padding-block: 1.69rem;
     align-items: center;
     justify-content: space-between;
+
+
+
+
 }
-.menus ul{
+
+.menus ul {
     display: flex;
     align-items: center;
     gap: 2.25rem;
@@ -72,18 +82,19 @@ nav{
 
 }
 
-.menus ul li a{
+.menus ul li a {
     color: var(--light-gray, #7F7F7F);
-font-family: Montserrat;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
+
 .menus ul li a:hover,
 .menus ul li a.active:hover {
     color: #87C332;
-     position: relative;
+    position: relative;
 
 }
 
@@ -95,7 +106,8 @@ line-height: normal;
     bottom: -4px;
     width: 0;
     height: 3px;
-    background-color: #87C332; /* Red color */
+    background-color: #87C332;
+    /* Red color */
     transition: all 0.3s ease-in-out;
 
 
@@ -114,20 +126,21 @@ line-height: normal;
 
 }
 
-.get-quote a{
+.get-quote a {
     color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-border-radius: 10.3125rem;
-background: var(--green, #87C332);
-padding: 0.88rem 2.75rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10.3125rem;
+    background: var(--green, #87C332);
+    padding: 0.88rem 2.75rem;
 
 }
-.get-quote a:hover{
+
+.get-quote a:hover {
     color: #87C332;
     background-color: white;
     filter: drop-shadow(20px 20px 100px #87C332);
@@ -139,3 +152,69 @@ padding: 0.88rem 2.75rem;
 
 
 /* ===================================header section ends here */
+
+
+
+
+
+
+/* ============================================index page start here */
+
+
+
+.index-hero {
+    background-image: linear-gradient(#F3F9EB, #BEDE90);
+    padding: 2.06rem 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-left {
+    padding-right: 13.06rem;
+}
+
+.hero-left h3 {
+    color: var(--gray-333333, #333);
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-left h1 {
+    color: var(--gray-333333, #333);
+    font-family: Montserrat;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-left span {
+    color: #87C332;
+    padding-bottom: 1.6rem;
+}
+
+.hero-left p {
+    color: var(--gray-333333, #333);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 1.8rem;
+}
+
+.hero-right {
+    position: relative;
+}
+
+#heroshape {
+	position: absolute;
+	bottom: -32px;
+	right: -99px;
+	overflow-x: hidden !important;
+}
