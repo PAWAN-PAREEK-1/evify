@@ -163,16 +163,23 @@ nav {
 
 
 .index-hero {
-    background-image: linear-gradient(#F3F9EB, #BEDE90);
+    background-image: linear-gradient(to left, #F3F9EB 21%, #BEDE90 145%);
     padding: 2.06rem 6.25rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 
 }
 
 .hero-left {
     padding-right: 13.06rem;
+
+}
+#circel{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .hero-left h3 {

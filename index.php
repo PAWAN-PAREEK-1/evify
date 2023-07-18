@@ -22,6 +22,7 @@
 
         <section class="index-hero">
             <div class="hero-left">
+                <img src="img/herocircel.svg" alt="" id="circel">
                     <h3>India's First <img src="img/heropin.svg" alt=""></h3>
                     <h1>CARBON OFF</h1>
                     <h1><span>NATURE</span> ON</h1>
@@ -29,6 +30,7 @@
                     <div class="get-quote">
                         <a href="#">Get A Quote</a>
                     </div>
+
             </div>
             <div class="hero-right">
                 <img src="img/heroimg.svg" alt="">
