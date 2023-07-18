@@ -12,7 +12,7 @@
 
     <nav>
         <div class="logo">
-            <a href="#"><img src="img/logo.svg" alt=""></a>
+            <a href="#"><img src="img/logo.svg" alt="" style="mix-blend-mode: darken;"></a>
         </div>
         <div class="menus">
             <ul>
