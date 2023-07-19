@@ -449,6 +449,8 @@ text-align: left;
     font-style: normal;
     font-weight: 700;
     line-height: 3.125rem; /* 125% */
+    padding-bottom: 1.87rem;
+
 }
 
 .wwd-detail h2 {
@@ -474,19 +476,12 @@ text-align: left;
     width: 100%;
 }
 
-.faq h2 {
-    display: inline-flex;
-}
 
-/* Update the class name to .faq */
-.faq {
-    flex-basis: 0;
-
-}
 .fq h2 {
     display: inline-flex;
     gap: 20rem;
     cursor: pointer;
+    padding-bottom: 1.25rem;
 }
 
 .wwd-detail{
@@ -497,6 +492,10 @@ text-align: left;
     overflow: hidden;
     align-items: flex-start;
 }
+.fq .f2 h4{
+    padding-bottom: 1.25rem;
+}
+
 
 /* .fq.active {
     height: 300px !important;
