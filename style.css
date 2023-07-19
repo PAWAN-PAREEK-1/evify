@@ -500,7 +500,7 @@ text-align: left;
 .info{
     background-color: rgba(135, 195, 50, 0.05);
    position: relative;
-  margin-bottom: 6.25rem;
+  /* margin-bottom: 6.25rem; */
 
 }
 .info1{
@@ -599,4 +599,49 @@ letter-spacing: -0.03125rem;
 .info3 hr{
     height: 5.125rem;
 
+}
+
+
+
+.vision-mission{
+    padding: 6.25rem;
+}
+.vision{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    justify-content: space-around;
+
+}
+.v-box{
+    padding: 2.81rem 1.31rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.94rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.25rem;
+    border: 1px dashed #87C332;
+    flex-basis: 30%;
+    min-height: 21.925rem;
+}
+
+.v-box h1{
+    color: #252525;
+text-align: center;
+font-family: Montserrat;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.1875rem; /* 134.615% */
+letter-spacing: -0.0625rem;
+}
+.v-box p{
+    color: #797979;
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 150% */
 }

@@ -246,25 +246,49 @@
             <div class="footer-last  info2">
                 <!-- <h1> &copy; 2023 All Rights Reserve</h1> -->
                 <div class="last-1 info3">
-                   <div class="info001">
+                    <div class="info001">
                         <h1>30,36,000+</h1>
                         <h3>Green Kms</h3>
-                   </div>
-                   <hr>
-                   <div class="info001">
-                    <h1>5,18,000+</h1>
-                    <h3>Delivers</h3>
-               </div>
-               <hr>
-               <div class="info001">
-                <h1>4,00,000+</h1>
-                <h3>KGs of Carbon Emissions Saved</h3>
-           </div>
+                    </div>
+                    <hr>
+                    <div class="info001">
+                        <h1>5,18,000+</h1>
+                        <h3>Delivers</h3>
+                    </div>
+                    <hr>
+                    <div class="info001">
+                        <h1>4,00,000+</h1>
+                        <h3>KGs of Carbon Emissions Saved</h3>
+                    </div>
                 </div>
             </div>
         </div>
 
 
+    </section>
+
+
+
+    <section class="vision-mission">
+        <div class="vision">
+            <div class="v-box">
+                <img src="img/mission.svg" alt="">
+                <h1>Our Mission</h1>
+                <p>To deploy our electric fleet to all the E-comm giants and decarbonise last mile logistics sector in
+                    Tier II and Tier III cities of india by 2030</p>
+            </div>
+            <div class="v-box">
+                <img src="img/vision.svg" alt="">
+                <h1>Our Vision</h1>
+                <p>To create a complete ecosystem for the LML sector in all the Tier II and III cities of India</p>
+            </div>
+            <div class="v-box">
+                <img src="img/values.svg" alt="">
+                <h1>Our Values</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet rutrum nisi. Sed
+                    ultrices dolor lorem, convallis porta sapien ultricies quis</p>
+            </div>
+        </div>
     </section>
 
 
