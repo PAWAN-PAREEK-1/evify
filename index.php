@@ -99,19 +99,27 @@
                 </h2>
                 <div class="f2">
                     <img src="img/greennext.svg" alt="">
-                    <h4>Home</h4>
+                    <h4>Reduce Cost By 30%</h4>
                 </div>
                 <div class="f2">
                     <img src="img/greennext.svg" alt="">
-                    <h4>Home</h4>
+                    <h4>Bulk Payment</h4>
                 </div>
                 <div class="f2">
                     <img src="img/greennext.svg" alt="">
-                    <h4>Home</h4>
+                    <h4>100% EV Trained Ridersk Payment</h4>
                 </div>
                 <div class="f2">
                     <img src="img/greennext.svg" alt="">
-                    <h4>Home</h4>
+                    <h4>No Surge Pricing</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Carbon Offset</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Downtime / Churn</h4>
                 </div>
             </div>
             <hr>
@@ -162,18 +170,51 @@
 
 
     </section>
-    <script>
-        const faqs = document.querySelectorAll(".fq");
-        faqs.forEach((fq) => {
-            fq.addEventListener("click", () => {
-                fq.classList.toggle("active");
-                const f2Elements = fq.querySelectorAll(".f2");
-                f2Elements.forEach((f2) => {
-                    f2.style.maxHeight = fq.classList.contains("active") ? "1000px" : "0";
-                });
-            });
+  <!-- Your existing HTML and CSS code here -->
+
+<!-- Your existing HTML and CSS code here -->
+
+<!-- Your existing HTML and CSS code here -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const faqs = document.querySelectorAll(".fq");
+      let activeFq = null;
+
+      // Function to open and close .fq elements
+      function toggleFq(fq) {
+        fq.classList.toggle("active");
+        const f2Elements = fq.querySelectorAll(".f2");
+        f2Elements.forEach((f2) => {
+          f2.style.maxHeight = fq.classList.contains("active") ? "1000px" : "0";
         });
-    </script>
+      }
+
+      // Open the first .fq element by default
+      const firstFq = faqs[0];
+      if (firstFq) {
+        toggleFq(firstFq);
+        activeFq = firstFq;
+      }
+
+      // Event listener for .fq elements
+      faqs.forEach((fq) => {
+        fq.addEventListener("click", () => {
+          if (activeFq !== fq) {
+            if (activeFq) {
+              toggleFq(activeFq);
+            }
+            toggleFq(fq);
+            activeFq = fq;
+          } else {
+            toggleFq(fq);
+            activeFq = null;
+          }
+        });
+      });
+    });
+  </script>
+
 
 
 
