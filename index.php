@@ -84,6 +84,96 @@
 
 
 
+    <section class="wwd">
+
+        <div class="wwd-img">
+
+            <img src="img/wwdimg.svg" alt="">
+
+        </div>
+
+        <div class="wwd-detail">
+            <h1>What We Do?</h1>
+            <div class="fq">
+                <h2>First mile delivery through 3W <a href=""> <img src="img/plus.svg" alt=""></a>
+                </h2>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="fq">
+                <h2>First mile delivery through 3W <a href=""> <img src="img/plus.svg" alt=""></a>
+                </h2>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="fq">
+                <h2>First mile delivery through 3W <a href=""> <img src="img/plus.svg" alt=""></a>
+                </h2>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+                <div class="f2">
+                    <img src="img/greennext.svg" alt="">
+                    <h4>Home</h4>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <script>
+        const faqs = document.querySelectorAll(".fq");
+        faqs.forEach((fq) => {
+            fq.addEventListener("click", () => {
+                fq.classList.toggle("active");
+                const f2Elements = fq.querySelectorAll(".f2");
+                f2Elements.forEach((f2) => {
+                    f2.style.maxHeight = fq.classList.contains("active") ? "1000px" : "0";
+                });
+            });
+        });
+    </script>
 
 
 
@@ -98,7 +188,21 @@
 
 
 
- <?php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <?php
         include "footer.php";
 
 

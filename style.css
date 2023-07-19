@@ -251,7 +251,7 @@ line-height: 1.625rem; /* 162.5% */
 }
 .last-1{
     display: flex;
-    
+
 
 }
 .last-1 hr{
@@ -421,4 +421,82 @@ text-align: left;
 .boxright{
     display: flex;
     justify-content: end;
+}
+
+
+/* Your existing CSS */
+.wwd {
+    padding: 6.25rem;
+    display: flex;
+    align-items: center;
+    gap: 3.94rem;
+}
+
+.wwd-img {
+    /* background-color: green; */
+    box-shadow: -10px -10px 0px #87C332;
+    border-radius: 1.5625rem;
+}
+
+.wwd-img img {
+    border-radius: 1.5625rem;
+}
+
+.wwd-detail h1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.125rem; /* 125% */
+}
+
+.wwd-detail h2 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.wwd-detail .f2 h4 {
+    color: var(--light-gray, #7F7F7F);
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.wwd-detail hr {
+    width: 100%;
+}
+
+.faq h2 {
+    display: inline-flex;
+}
+
+/* Update the class name to .faq */
+.faq {
+    flex-basis: 0;
+
+}
+.fq h2 {
+    display: inline-flex;
+    gap: 20rem;
+    cursor: pointer;
+}
+
+.wwd-detail{
+    width: 100%;
+}
+.f2{
+    max-height: 0;
+    overflow: hidden;
+}
+.fq.active {
+    height: 300px !important;
+
 }
