@@ -170,66 +170,102 @@
 
 
     </section>
-  <!-- Your existing HTML and CSS code here -->
+    <!-- Your existing HTML and CSS code here -->
 
-<!-- Your existing HTML and CSS code here -->
+    <!-- Your existing HTML and CSS code here -->
 
-<!-- Your existing HTML and CSS code here -->
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const faqs = document.querySelectorAll(".fq");
-      let activeFq = null;
+    <!-- Your existing HTML and CSS code here -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const faqs = document.querySelectorAll(".fq");
+            let activeFq = null;
 
-      // Function to open and close .fq elements
-      function toggleFq(fq) {
-        fq.classList.toggle("active");
-        const f2Elements = fq.querySelectorAll(".f2");
-        f2Elements.forEach((f2) => {
-          f2.style.maxHeight = fq.classList.contains("active") ? "1000px" : "0";
-        });
+            // Function to open and close .fq elements
+            function toggleFq(fq) {
+                fq.classList.toggle("active");
+                const f2Elements = fq.querySelectorAll(".f2");
+                f2Elements.forEach((f2) => {
+                    f2.style.maxHeight = fq.classList.contains("active") ? "1000px" : "0";
+                });
 
-        // Toggle plus and minus images
-        const img = fq.querySelector("img");
-        if (img) {
-          const imgSrc = img.getAttribute("src");
-          if (imgSrc.includes("plus.svg")) {
-            img.setAttribute("src", "img/minus.svg");
-          } else {
-            img.setAttribute("src", "img/plus.svg");
-          }
-        }
-      }
-
-      // Open the first .fq element by default
-      const firstFq = faqs[0];
-      if (firstFq) {
-        toggleFq(firstFq);
-        activeFq = firstFq;
-      }
-
-      // Event listener for .fq elements
-      faqs.forEach((fq) => {
-        fq.addEventListener("click", () => {
-          if (activeFq !== fq) {
-            if (activeFq) {
-              toggleFq(activeFq);
+                // Toggle plus and minus images
+                const img = fq.querySelector("img");
+                if (img) {
+                    const imgSrc = img.getAttribute("src");
+                    if (imgSrc.includes("plus.svg")) {
+                        img.setAttribute("src", "img/minus.svg");
+                    } else {
+                        img.setAttribute("src", "img/plus.svg");
+                    }
+                }
             }
-            toggleFq(fq);
-            activeFq = fq;
-          } else {
-            toggleFq(fq);
-            activeFq = null;
-          }
+
+            // Open the first .fq element by default
+            const firstFq = faqs[0];
+            if (firstFq) {
+                toggleFq(firstFq);
+                activeFq = firstFq;
+            }
+
+            // Event listener for .fq elements
+            faqs.forEach((fq) => {
+                fq.addEventListener("click", () => {
+                    if (activeFq !== fq) {
+                        if (activeFq) {
+                            toggleFq(activeFq);
+                        }
+                        toggleFq(fq);
+                        activeFq = fq;
+                    } else {
+                        toggleFq(fq);
+                        activeFq = null;
+                    }
+                });
+            });
         });
-      });
-    });
-  </script>
+    </script>
 
 
-<section class="container">
-    
+    <section class="info">
+        <div class="arrows">
+            <img src="img/nextarrows.svg" alt="" id="nextarrow">
+            <img src="img/previousarrows.svg" alt="" id="prevarrow">
+        </div>
 
-</section>
+        <div class="info1">
+            <img src="img/truck.svg" alt="">
+        </div>
+
+        <div class="info-con">
+            <h4>Focused On Quality</h4>
+            <h2>We Provide Full <span>Assistance</span> in Freight and Warehousing.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet rutrum nisi. Sed ultrices
+                dolor lorem, convallis porta sapien ultricies quis.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Suspendisse sit amet rutrum nisi. Sed ultrices dolor lorem, convallis porta sapien ultricies quis.
+            </p>
+            <div class="footer-last  info2">
+                <!-- <h1> &copy; 2023 All Rights Reserve</h1> -->
+                <div class="last-1 info3">
+                   <div class="info001">
+                        <h1>30,36,000+</h1>
+                        <h3>Green Kms</h3>
+                   </div>
+                   <hr>
+                   <div class="info001">
+                    <h1>5,18,000+</h1>
+                    <h3>Delivers</h3>
+               </div>
+               <hr>
+               <div class="info001">
+                <h1>4,00,000+</h1>
+                <h3>KGs of Carbon Emissions Saved</h3>
+           </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
 
 
 
