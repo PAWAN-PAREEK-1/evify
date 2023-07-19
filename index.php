@@ -95,7 +95,7 @@
         <div class="wwd-detail">
             <h1>What We Do?</h1>
             <div class="fq">
-                <h2>First mile delivery through 3W <a href=""> <img src="img/plus.svg" alt=""></a>
+                <h2>Last mile delivery through 2W<a href=""> <img src="img/plus.svg" alt=""></a>
                 </h2>
                 <div class="f2">
                     <img src="img/greennext.svg" alt="">
@@ -124,7 +124,7 @@
             </div>
             <hr>
             <div class="fq">
-                <h2>First mile delivery through 3W <a href=""> <img src="img/plus.svg" alt=""></a>
+                <h2>First mile delivery through 3W<a href=""> <img src="img/plus.svg" alt=""></a>
                 </h2>
                 <div class="f2">
                     <img src="img/greennext.svg" alt="">
@@ -175,7 +175,6 @@
 <!-- Your existing HTML and CSS code here -->
 
 <!-- Your existing HTML and CSS code here -->
-
 <script>
     document.addEventListener("DOMContentLoaded", () => {
       const faqs = document.querySelectorAll(".fq");
@@ -188,6 +187,17 @@
         f2Elements.forEach((f2) => {
           f2.style.maxHeight = fq.classList.contains("active") ? "1000px" : "0";
         });
+
+        // Toggle plus and minus images
+        const img = fq.querySelector("img");
+        if (img) {
+          const imgSrc = img.getAttribute("src");
+          if (imgSrc.includes("plus.svg")) {
+            img.setAttribute("src", "img/minus.svg");
+          } else {
+            img.setAttribute("src", "img/plus.svg");
+          }
+        }
       }
 
       // Open the first .fq element by default
@@ -214,6 +224,13 @@
       });
     });
   </script>
+
+
+<section class="container">
+    
+
+</section>
+
 
 
 
