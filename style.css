@@ -837,33 +837,11 @@ nav {
   width: 100px;
 }
 
-.click-to-load {
-  text-align: center;
-  margin-top: 20px;
-  cursor: pointer;
-}
 
-.line1,
-.line2 {
-  width: 50px;
-  height: 2px;
-  background-color: #87c332;
-  margin: 5px auto;
-  transition: all 0.3s ease;
-}
 
-.line2 {
-  opacity: 0;
-}
 
-.click-to-load.active .line1 {
-  transform: translateY(5px) rotate(45deg);
-}
 
-.click-to-load.active .line2 {
-  transform: translateY(-5px) rotate(-45deg);
-  opacity: 1;
-}
+
 
 .box .fe-detail a {
   display: inline-flex;
@@ -879,29 +857,162 @@ nav {
   letter-spacing: 0.0625rem;
   text-transform: uppercase;
 }
-.box-img{
+
+.box-img {
   position: relative;
 }
+
 .box-img h4 {
-	position: absolute;
-	bottom: 0;
-	left: 20px;
-	color: #FFF;
-	text-align: center;
-	font-family: Montserrat;
-	font-size: 0.875rem;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 0.875rem;
-	text-transform: uppercase;
-	padding: 13.1px 26.7px 17.8px 26.7px;
-	background-color: #87C332;
-	clip-path: polygon(100.06% 1.82%, 88.85% 84.41%, 4.41% 86.64%, 16.75% 3.05%);
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.875rem;
+  text-transform: uppercase;
+  padding: 13.1px 26.7px 17.8px 26.7px;
+  background-color: #87C332;
+  clip-path: polygon(100.06% 1.82%, 88.85% 84.41%, 4.41% 86.64%, 16.75% 3.05%);
 }
-.feature-section #page-hr{
+
+.feature-section #page-hr {
   width: 4.25rem;
 
   height: 0.4375rem;
-background-color: #87C332;
-clip-path: polygon(100.06% 1.82%, 88.85% 84.41%, 4.41% 86.64%, 16.75% 3.05%);
+  background-color: #87C332;
+  clip-path: polygon(100.06% 1.82%, 88.85% 84.41%, 4.41% 86.64%, 16.75% 3.05%);
 }
+
+
+
+
+
+
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F5F5F5;
+  margin-bottom: 6.5rem;
+  padding: 0 6.25rem 0;
+}
+
+.contact-content {
+  width: 50%;
+  padding: 2.75rem 3.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.contact-content h2 {
+  color: #333;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.125rem;
+  /* 125% */
+}
+
+.contact-content p {
+  color: #7F7F7F;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4375rem;
+  /* 143.75% */
+  letter-spacing: -0.0625rem;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 1.31rem;
+}
+
+.form-row label {
+  width: 120px;
+}
+
+.form-row input,
+.form-row textarea {
+  flex: 1;
+  padding: 8px;
+  border-radius: 0.3125rem;
+  border: 1px solid #DADADA;
+  background: #FFF;
+
+}
+
+.form-row textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #87C332;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #87C332;
+
+
+}
+
+.contact-image {
+  width: 50%;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+}
+
+form .form-row textarea::placeholder,
+form .form-row input::placeholder,
+form .form-group input::placeholder {
+  color: #ABABAB;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form-row .form-group {
+  display: flex;
+  flex: 1;
+}
+
+.form-row input:focus,
+form .form-row textarea:focus,
+.form-row .form-group input:focus {
+  outline: none;
+  /* Remove the default focus outline */
+  border-color: green;
+  /* Change this to the desired color when the input is clicked/focused */
+  box-shadow: 0 0 2px green;
+  /* Add a box shadow for a better visual effect */
+}
+
+/* button{
+  width: 100%;
+  background-color: #87C332;
+} */

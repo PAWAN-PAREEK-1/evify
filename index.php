@@ -367,7 +367,7 @@
           </div>
         </div>
         <div class="about-left">
-          <img src="img/about1.svg" alt="" />
+          <img src="img/about2.svg" alt="" />
         </div>
       </div>
     </section>
@@ -386,9 +386,9 @@
       <h2>Featured In</h2>
       <div class="feature-boxes">
         <div class="box">
-            <div class="box-img">
-          <img src="img/fe1.svg" alt="Image 1" >
-          <h4>Aug 01, 2022</h4>
+          <div class="box-img">
+            <img src="img/fe1.svg" alt="Image 1" />
+            <h4>Aug 01, 2022</h4>
           </div>
           <div class="fe-detail">
             <h2>
@@ -400,48 +400,79 @@
               round led by We Founder Circle. The round also witnessed
               participation from angel investors like Gaurav Singhvi,
             </p>
-            <a href="">READ MORE <img src="img/nextarrow2.svg" alt=""></a>
+            <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
           </div>
         </div>
         <div class="box">
-            <div class="box-img">
-                <img src="img/fe2.svg" alt="Image 1" >
-                <h4>Aug 01, 2022</h4>
-                </div>
-            <div class="fe-detail">
-              <h2>
-                EVIFY Raises $100,000 Through We Founder Circle
-                <hr />
-              </h2>
-              <p>
-                Evify an EV logistics startup, raised $100,000 in a Seed funding
-                round led by We Founder Circle. The round also witnessed
-                participation from angel investors like Gaurav Singhvi,
-              </p>
-              <a href="">READ MORE <img src="img/nextarrow2.svg" alt=""></a>
-            </div>
+          <div class="box-img">
+            <img src="img/fe2.svg" alt="Image 1" />
+            <h4>Aug 01, 2022</h4>
           </div>
-          <div class="box">
-            <div class="box-img">
-                <img src="img/fe3.svg" alt="Image 1" >
-                <h4>Aug 01, 2022</h4>
-                </div>
-            <div class="fe-detail">
-              <h2>
-                EVIFY Raises $100,000 Through We Founder Circle
-                <hr />
-              </h2>
-              <p>
-                Evify an EV logistics startup, raised $100,000 in a Seed funding
-                round led by We Founder Circle. The round also witnessed
-                participation from angel investors like Gaurav Singhvi,
-              </p>
-              <a href="">READ MORE <img src="img/nextarrow2.svg" alt=""></a>
-            </div>
+          <div class="fe-detail">
+            <h2>
+              EVIFY Raises $100,000 Through We Founder Circle
+              <hr />
+            </h2>
+            <p>
+              Evify an EV logistics startup, raised $100,000 in a Seed funding
+              round led by We Founder Circle. The round also witnessed
+              participation from angel investors like Gaurav Singhvi,
+            </p>
+            <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
           </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/fe3.svg" alt="Image 1" />
+            <h4>Aug 01, 2022</h4>
+          </div>
+          <div class="fe-detail">
+            <h2>
+              EVIFY Raises $100,000 Through We Founder Circle
+              <hr />
+            </h2>
+            <p>
+              Evify an EV logistics startup, raised $100,000 in a Seed funding
+              round led by We Founder Circle. The round also witnessed
+              participation from angel investors like Gaurav Singhvi,
+            </p>
+            <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+          </div>
+        </div>
       </div>
 
-      <hr id="page-hr">
+      <hr id="page-hr" />
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-content">
+        <h2>Contact</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          sit amet rutrum nisi. Sed ultrices dolor lorem, convallis porta sapien
+          ultricies quis. Phasellus consectetur faucibus est
+        </p>
+        <form>
+          <div class="form-row">
+            <input type="text" id="name" name="name" required placeholder="Name"/>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="email" id="email" name="email" required placeholder="Email"/>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="contact-no" name="contact-no" required placeholder="Contact Us"/>
+            </div>
+          </div>
+          <div class="form-row">
+            <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="contact-image">
+        <img src="img/contact.svg" alt="Contact Image" />
+      </div>
     </section>
 
     <?php
