@@ -24,19 +24,19 @@
                 <h2>Explore</h2>
                 <div class="f2">
                     <img src="img/next.svg" alt="">
-                    <h4><a href="">Home</a></h4>
+                    <h4><a href="./index.php">Home</a></h4>
                 </div>
                 <div class="f2">
                     <img src="img/next.svg" alt="">
-                    <h4><a href="">About Us</a></h4>
+                    <h4><a href="./about.php">About Us</a></h4>
                 </div>
                 <div class="f2">
                     <img src="img/next.svg" alt="">
-                    <h4><a href="">Contact Us</a></h4>
+                    <h4><a href="./contact.php">Contact Us</a></h4>
                 </div>
                 <div class="f2">
                     <img src="img/next.svg" alt="">
-                    <h4><a href="">Join Us</a></h4>
+                    <h4><a href="./joinus.php">Join Us</a></h4>
                 </div>
             </div>
             <div class="f-1">

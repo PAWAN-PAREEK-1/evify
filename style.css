@@ -1005,14 +1005,68 @@ form .form-group input::placeholder {
 form .form-row textarea:focus,
 .form-row .form-group input:focus {
   outline: none;
-  /* Remove the default focus outline */
   border-color: green;
-  /* Change this to the desired color when the input is clicked/focused */
   box-shadow: 0 0 2px green;
-  /* Add a box shadow for a better visual effect */
+
 }
 
-/* button{
-  width: 100%;
-  background-color: #87C332;
+
+.hero{
+ background: linear-gradient(#BEDE90,#F3F9EB);
+  position: relative;
+}
+.hero h1{
+  color: var(--gray-333333, #333);
+font-family: Montserrat;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+padding-block: 6.94rem;
+}
+.hero img{
+  position: absolute;
+  top: 0;
+  left: 36.8%;
+}
+.con{
+  margin-top: 6.25rem;
+}
+/* .join{
+  margin-bottom: 6.25rem;
 } */
+
+
+.center-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.toggle-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.toggle-container {
+  text-align: center;
+}
+
+.toggle-item {
+  display: none; /* Hide all toggle items by default */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+#div1 {
+  display: block; /* Show the first toggle item by default */
+}
+
+
