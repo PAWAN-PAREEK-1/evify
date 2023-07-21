@@ -750,6 +750,8 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 3.75rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature-section H2 {
@@ -895,4 +897,11 @@ nav {
 	padding: 13.1px 26.7px 17.8px 26.7px;
 	background-color: #87C332;
 	clip-path: polygon(100.06% 1.82%, 88.85% 84.41%, 4.41% 86.64%, 16.75% 3.05%);
+}
+.feature-section #page-hr{
+  width: 4.25rem;
+
+  height: 0.4375rem;
+background-color: #87C332;
+clip-path: polygon(100.06% 1.82%, 88.85% 84.41%, 4.41% 86.64%, 16.75% 3.05%);
 }

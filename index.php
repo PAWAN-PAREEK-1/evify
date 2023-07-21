@@ -440,6 +440,8 @@
             </div>
           </div>
       </div>
+
+      <hr id="page-hr">
     </section>
 
     <?php
