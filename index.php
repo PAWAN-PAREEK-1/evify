@@ -386,7 +386,10 @@
       <h2>Featured In</h2>
       <div class="feature-boxes">
         <div class="box">
-          <img src="img/fe1.svg" alt="Image 1" />
+            <div class="box-img">
+          <img src="img/fe1.svg" alt="Image 1" >
+          <h4>Aug 01, 2022</h4>
+          </div>
           <div class="fe-detail">
             <h2>
               EVIFY Raises $100,000 Through We Founder Circle
@@ -401,7 +404,10 @@
           </div>
         </div>
         <div class="box">
-            <img src="img/fe2.svg" alt="Image 1" >
+            <div class="box-img">
+                <img src="img/fe2.svg" alt="Image 1" >
+                <h4>Aug 01, 2022</h4>
+                </div>
             <div class="fe-detail">
               <h2>
                 EVIFY Raises $100,000 Through We Founder Circle
@@ -416,7 +422,10 @@
             </div>
           </div>
           <div class="box">
-            <img src="img/fe3.svg" alt="Image 1" />
+            <div class="box-img">
+                <img src="img/fe3.svg" alt="Image 1" >
+                <h4>Aug 01, 2022</h4>
+                </div>
             <div class="fe-detail">
               <h2>
                 EVIFY Raises $100,000 Through We Founder Circle
