@@ -700,3 +700,24 @@ nav {
 .first-dec {
   padding-bottom: 4.37rem;
 }
+
+.clients{
+  padding: 3.18rem 6.25rem;
+  background-color: #F8F8F8;
+  color: var(--gray-333333, #333);
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.125rem; /* 125% */
+text-align: center;
+display: flex;
+flex-direction: column;
+gap:  3.12rem;
+}
+.com{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}

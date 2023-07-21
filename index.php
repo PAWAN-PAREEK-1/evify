@@ -372,6 +372,18 @@
       </div>
     </section>
 
+    <section class="clients">
+        <h1>Our Super Clients</h1>
+        <div class="com">
+            <img src="img/swiggy.svg" alt="">
+            <img src="img/blue dart.svg" alt="">
+            <img src="img/bigbasket.svg" alt="">
+            <img src="img/flipkart.svg" alt="">
+        
+        </div>
+
+    </section>
+
     <?php
         include "footer.php";
 
