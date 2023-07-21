@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
 
 a {
   text-decoration: none;
@@ -720,4 +723,140 @@ gap:  3.12rem;
   align-items: center;
   justify-content: space-evenly;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.feature-section {
+  padding:6.25rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+.feature-section H2{
+  color: var(--gray-333333, #333);
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.125rem; /* 125% */
+text-align: center;
+
+}
+
+
+
+.feature-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.box {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 1.25rem;
+
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.03);
+  text-align: left;
+
+  overflow: hidden;
+}
+
+.box img {
+  /* width: 100%; */
+
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+
+}
+.fe-detail{
+  padding: 1.87rem 0.94rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.06rem;
+}
+.fe-detail h2{
+  color: var(--gray-333333, #333);
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.0625rem;
+text-align: left;
+
+
+}
+.fe-detail p{
+  color: var(--light-gray, #7F7F7F);
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.4375rem; /* 143.75% */
+letter-spacing: -0.0625rem;
+margin-bottom: 0;
+}
+.fe-detail hr{
+  border-bottom: 2px dotted #87c332;
+}
+
+
+
+.green-dotted-line {
+  border-bottom: 2px dotted #87c332;
+  margin: 40px auto;
+  width: 100px;
+}
+
+.click-to-load {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.line1, .line2 {
+  width: 50px;
+  height: 2px;
+  background-color: #87c332;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+}
+
+.line2 {
+  opacity: 0;
+}
+
+.click-to-load.active .line1 {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.click-to-load.active .line2 {
+  transform: translateY(-5px) rotate(-45deg);
+  opacity: 1;
+}
+.box .fe-detail a{
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--green, #87C332);
+text-align: center;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.0625rem;
+text-transform: uppercase;
 }
