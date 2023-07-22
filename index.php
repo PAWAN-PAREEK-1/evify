@@ -28,8 +28,8 @@
       <div class="hero-left">
         <img src="img/herocircel.svg" alt="" id="circel" />
         <h3>India's First <img src="img/heropin.svg" alt="" /></h3>
-        <h1>CARBON OFF</h1>
-        <h1><span>NATURE</span> ON</h1>
+        <h1>CARBON OFF
+       <span>NATURE</span> ON</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisi ng elit. Mauris
           lacinia
@@ -51,6 +51,7 @@
       </p>
       <div class="why-1">
         <div class="main-why" style="padding-bottom: 11.4rem">
+          <img src="img/thunder2.svg" alt="" id="thunder">
           <div class="why-box-1">
             <div class="choose-box">
               <h3>Carbon Conscious</h3>
@@ -180,11 +181,7 @@
         </div>
       </div>
     </section>
-    <!-- Your existing HTML and CSS code here -->
 
-    <!-- Your existing HTML and CSS code here -->
-
-    <!-- Your existing HTML and CSS code here -->
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         const faqs = document.querySelectorAll(".fq");
@@ -311,12 +308,36 @@
         </div>
       </div>
     </section>
+    <!-- Add this script to the end of your HTML body -->
+<script>
+  // JavaScript to handle sliding v-boxes
+  const sliderContainer = document.querySelector(".vision");
+  const prevButton = document.getElementById("prevButton");
+  const nextButton = document.getElementById("nextButton");
+
+  prevButton.addEventListener("click", () => {
+    sliderContainer.scrollBy({
+      left: -sliderContainer.clientWidth,
+      behavior: "smooth",
+    });
+  });
+
+  nextButton.addEventListener("click", () => {
+    sliderContainer.scrollBy({
+      left: sliderContainer.clientWidth,
+      behavior: "smooth",
+    });
+  });
+</script>
+
 
     <section class="aboutus">
+      <h1>About Us</h1>
       <div class="about-dec first-dec">
         <div class="about-left">
           <img src="img/about1.svg" alt="" />
         </div>
+
 
         <div class="about-right">
           <h1>About Us</h1>
@@ -341,7 +362,7 @@
           </p>
         </div>
       </div>
-      <div class="about-dec">
+      <div class="about-dec bb">
         <div class="about-right">
           <h3>Mr. Devrishi Arora</h3>
           <h3>the Founder, CEO & COO of Evify</h3>
@@ -374,11 +395,13 @@
 
     <section class="clients">
       <h1>Our Super Clients</h1>
+      <div class="comp">
       <div class="com">
         <img src="img/swiggy.svg" alt="" />
         <img src="img/blue dart.svg" alt="" />
         <img src="img/bigbasket.svg" alt="" />
         <img src="img/flipkart.svg" alt="" />
+      </div>
       </div>
     </section>
 

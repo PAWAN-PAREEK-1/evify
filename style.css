@@ -593,7 +593,7 @@ nav {
 
 .info001 h3 {
   color: var(--gray-333333, #333);
-  font-family: DM Sans;
+  font-family: Montserrat;;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
@@ -669,7 +669,7 @@ nav {
   border: 1px solid var(--green, #87c332);
 }
 
-.about-right h1 {
+.about-right h1 ,.aboutus h1{
   color: var(--gray-333333, #333);
   font-family: Montserrat;
   font-size: 2.5rem;
@@ -714,16 +714,20 @@ nav {
   padding: 3.18rem 6.25rem;
   background-color: #F8F8F8;
   color: var(--gray-333333, #333);
-  font-family: Montserrat;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 3.125rem;
+
   /* 125% */
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 3.12rem;
+}
+.clients h1{
+  color: var(--gray-333333, #333);
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.125rem; /* 125% */
 }
 
 .com {
@@ -1205,3 +1209,315 @@ line-height: 1.75rem; /* 116.667% */
   flex-direction: column;
   gap: 1.25rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 968px){
+  #thunder{
+    display: none;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+  .index-hero {
+
+    padding: 2.06rem 0.95rem;
+  }
+  .hero-left h3 {
+
+    font-size: 0.9375rem;
+    font-weight: 500;
+
+  }
+  .hero-left h1 {
+
+    font-size: 1.5rem;
+
+  }
+  .hero-left p{
+    font-size: 0.8125rem;
+  }
+  .hero-right img:nth-child(1){
+    width: 12.5rem;
+    padding-bottom: 3.8rem;
+  }
+  .hero-right img:nth-child(2){
+    display: none;
+  }
+  .hero-left {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #circel{
+    width: 9.68rem;
+  }
+  .hero-left h3 img{
+    width:2.56rem;
+  }
+  .why-choose-us h3 {
+
+    font-size: 0.8rem;
+    font-weight: 600;
+
+  }
+  .why-choose-us #reason {
+
+    font-size: 1.5rem;
+    line-height: 1.685rem;
+    padding-inline: 0rem;
+  }
+  .why-choose-us {
+    padding: 1.95rem 0.95rem;
+  }
+  .why-1{
+    background-image: none;
+  }
+ .main-why #thunder{
+    width: 17.0625rem;
+height: 17.0625rem;
+
+  }
+  .main-why{
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 0 !important;
+    padding-top: 20px;
+  }
+  .why-1{
+    padding: 0;
+  }
+  .choose-box{
+    width: 100%;
+  }
+  .why-choose-us span{
+    padding-bottom:0 ;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  .wwd{
+    flex-direction: column;
+    padding: 0.95rem;
+  }
+  .wwd-img{
+    width: 21.25rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .wwd-detail h1 {
+
+    font-size: 1.25rem;
+
+    line-height: 1.65rem;
+    padding-bottom: 1.17rem;
+  }
+  .wwd-detail h2 {
+    font-size:1rem ;
+  }
+  .fq h2 {
+    gap: 5rem;
+    padding-bottom: 0.35rem;
+
+  }
+  .wwd-detail .f2 h4 {
+
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .info-con {
+   position: initial;
+  }
+  #nextarrow,#prevarrow {
+    display: none;
+  }
+  .info1 img {
+   border-radius: 0;
+    width: 100%;
+  }
+  .info-con h4 {
+    text-align: center;
+    font-size: 0.8125rem;
+
+  }
+  .info-con h2 {
+    font-size: 1.25rem;
+    line-height: 1.68rem;
+    text-align: center;
+    padding-right: 0;
+  }
+  .info-con {
+    border-radius: 0;
+    background-color: rgba(135, 195, 50, 0.05);
+  }
+  .info-con p{
+    font-size: 0.81rem;
+    line-height: 1.18rem;
+    text-align: center;
+  }
+  .last-1 {
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .info3 hr {
+    height: 0.125rem;
+    width: 132%;
+  }
+  .info001{
+    text-align: center;
+    padding-block: 20px;
+  }
+  .v-box {
+    padding: 0.81rem 0.31rem;
+
+    min-height: 0;
+  }
+  .vision-mission {
+    padding: 0.95rem;
+  }
+  .vision {
+    flex-direction: column;
+  }
+  .aboutus {
+    padding: 0.95rem;
+  }
+  .about-dec {
+
+    flex-direction: column;
+  }
+  .about-dec.bb {
+    flex-direction: column-reverse;
+  }
+  .about-right h1{
+    display:none;
+
+  }
+  .aboutus h1{
+    text-align: center;
+    padding-block: 20px;
+  }
+  .about-right h3{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .about-right p{
+    font-size:0.8125rem ;
+    text-align: center;
+  }
+  .get-quote a{
+    padding: 0.44rem 1.56rem;
+  }
+  .abt-btn{
+    display: flex;
+justify-content: center;
+padding-top: 1.2rem;
+  }
+  .clients h1{
+    color: #333;
+text-align: center;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.6875rem; /* 135% */
+  }
+  .comp{
+    overflow: auto ;
+    width: 100%;
+  }
+  .clients{
+    padding: 3.18rem 0.95rem;
+  }
+  .head-right a {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .vision {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable scroll snapping */
+  }
+
+  .v-box {
+    width: 80%; /* Set the width of each v-box */
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    margin-right: 1rem; /* Add some spacing between v-boxes */
+    scroll-snap-align: start; /* Align v-boxes to start position when scrolling */
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Your existing CSS */
+
+/* Add media query for mobile view */
+@media (max-width: 767px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
