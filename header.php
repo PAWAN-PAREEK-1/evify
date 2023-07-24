@@ -44,13 +44,13 @@
         <div class="nav-phone" onclick="toggleNav()">
             <div>
                 <div class="nav-content">
-                    <a href="/" class="active">Home</a>
-                    <a href="./about.html">About Us</a>
-                    <a href="./email-calculator.html">Contact Us</a>
-                    <a href="./investment-relation.html">Join Us</a>
+                    <a href="./index.php" class="active">Home</a>
+                    <a href="./about.php">About Us</a>
+                    <a href="./contact.php">Contact Us</a>
+                    <a href="./joinus.php">Join Us</a>
 
                 </div>
-                <div class="get-quote">
+                <div class="get-quote get-quote2">
                     <a href="#">Get A Quote</a>
                 </div>
             </div>
@@ -71,6 +71,9 @@
                 }
             }
         </script>
+         <div class="get-quote get2">
+            <a href="#">Get A Quote</a>
+        </div>
 
 
 

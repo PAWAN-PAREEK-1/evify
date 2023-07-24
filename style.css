@@ -1300,6 +1300,9 @@ header .nav-show {
 header .nav-show>div {
   transform: translate(0, 0);
 }
+#social {
+	margin-right: 10px;
+}
 
 
 
@@ -1328,7 +1331,26 @@ header .nav-show>div {
   #thunder {
     display: none;
   }
+  .social-footer2{
+    display: none;
+  }
+  .nav-button,.nav-phone{
+    display: none;
+  }
+
+
 }
+@media (min-width: 800px) {
+  .social-footer2{
+    display: none;
+  }
+  .nav-button,.nav-phone{
+    display: none;
+  }
+
+}
+
+
 
 
 
@@ -1337,6 +1359,9 @@ header .nav-show>div {
   .index-hero {
 
     padding: 2.06rem 0.95rem;
+  }
+  .get2{
+    display: none;
   }
 
   .menus {
@@ -1516,7 +1541,7 @@ header .nav-show>div {
 
   .info3 hr {
     height: 0.125rem;
-    width: 132%;
+    width: 92%;
   }
 
   .info001 {
@@ -1710,8 +1735,40 @@ header .nav-show>div {
     flex-direction: column;
     gap: 1.75rem;
   }
+  .footer-main {
+    padding: 1.56rem 0.95rem 3.37rem;
+    flex-direction: column;
+  }
+  .social-footer3{
+    display: none;
+  }
+  .footer-social img:hover {
+    background-color: initial;
+    border-radius: initial;
+  }
+  .footer-social {
 
-
+    justify-content: center;
+    padding-block:30px ;
+  }
+  .f-logo{
+    text-align: center;
+  }
+  .f-1 {
+    margin-bottom: 20px;
+  }
+  .footer-last{
+    flex-direction: column;
+    padding: 1.37rem 0.95rem;
+  }
+  .footer-last-1{
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .hero img{
+    display: none;
+  }
 
 
 

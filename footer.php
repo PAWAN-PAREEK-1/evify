@@ -4,7 +4,12 @@
             <div class="f-logo">
                 <img src="img/logo2.svg" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Suspendisse</p>
-
+                <div class="footer-social   social-footer2">
+                    <a href=""> <img src="img/face.svg" alt=""></a>
+                     <a href=""> <img src="img/link.svg" alt=""></a>
+                         <a href=""> <img src="img/twit.svg" alt=""></a>
+                             <a href=""> <img src="img/socialbe.svg" alt=""></a>
+                 </div>
             </div>
 
             <div class="f-1">
@@ -54,7 +59,7 @@
         </div>
 
 
-        <div class="footer-social">
+        <div class="footer-social social-footer3">
            <a href=""> <img src="img/face.svg" alt=""></a>
             <a href=""> <img src="img/link.svg" alt=""></a>
                 <a href=""> <img src="img/twit.svg" alt=""></a>
@@ -66,7 +71,7 @@
 
     <div class="footer-last">
        <h1> &copy; 2023 All Rights Reserve</h1>
-        <div class="last-1">
+        <div class="last-1 footer-last-1">
            <a href=""> <h1>Privacy</h1></a>
             <hr>
             <a href=""> <h1>Terms & Condition</h1></a>

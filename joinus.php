@@ -117,7 +117,7 @@
                                 <img src="img/emi.svg" alt="Small Image">
                                 <h3>Advace Salary vai Fatak Pay</h3>
                             </div>
-                           
+
 
 
                         </div>
@@ -203,66 +203,69 @@
             <img src="img/flipkart.svg" alt="" />
         </div>
     </section>
-    <section class="feature-section">
-        <h2>Featured In</h2>
-        <div class="feature-boxes">
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/fe1.svg" alt="Image 1" />
-                    <h4>Aug 01, 2022</h4>
-                </div>
-                <div class="fe-detail">
-                    <h2>
-                        EVIFY Raises $100,000 Through We Founder Circle
-                        <hr />
-                    </h2>
-                    <p>
-                        Evify an EV logistics startup, raised $100,000 in a Seed funding
-                        round led by We Founder Circle. The round also witnessed
-                        participation from angel investors like Gaurav Singhvi,
-                    </p>
-                    <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/fe2.svg" alt="Image 1" />
-                    <h4>Aug 01, 2022</h4>
-                </div>
-                <div class="fe-detail">
-                    <h2>
-                        EVIFY Raises $100,000 Through We Founder Circle
-                        <hr />
-                    </h2>
-                    <p>
-                        Evify an EV logistics startup, raised $100,000 in a Seed funding
-                        round led by We Founder Circle. The round also witnessed
-                        participation from angel investors like Gaurav Singhvi,
-                    </p>
-                    <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/fe3.svg" alt="Image 1" />
-                    <h4>Aug 01, 2022</h4>
-                </div>
-                <div class="fe-detail">
-                    <h2>
-                        EVIFY Raises $100,000 Through We Founder Circle
-                        <hr />
-                    </h2>
-                    <p>
-                        Evify an EV logistics startup, raised $100,000 in a Seed funding
-                        round led by We Founder Circle. The round also witnessed
-                        participation from angel investors like Gaurav Singhvi,
-                    </p>
-                    <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
-                </div>
-            </div>
-        </div>
 
-        <hr id="page-hr" />
+    <section class="feature-section">
+      <h2>Featured In</h2>
+      <div class="fe01">
+        <div class="feature-boxes">
+          <div class="box">
+            <div class="box-img">
+              <img src="img/fe1.svg" alt="Image 1" />
+              <h4>Aug 01, 2022</h4>
+            </div>
+            <div class="fe-detail">
+              <h2>
+                EVIFY Raises $100,000 Through We Founder Circle
+                <hr />
+              </h2>
+              <p>
+                Evify an EV logistics startup, raised $100,000 in a Seed funding
+                round led by We Founder Circle. The round also witnessed
+                participation from angel investors like Gaurav Singhvi,
+              </p>
+              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-img">
+              <img src="img/fe2.svg" alt="Image 1" />
+              <h4>Aug 01, 2022</h4>
+            </div>
+            <div class="fe-detail">
+              <h2>
+                EVIFY Raises $100,000 Through We Founder Circle
+                <hr />
+              </h2>
+              <p>
+                Evify an EV logistics startup, raised $100,000 in a Seed funding
+                round led by We Founder Circle. The round also witnessed
+                participation from angel investors like Gaurav Singhvi,
+              </p>
+              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-img">
+              <img src="img/fe3.svg" alt="Image 1" />
+              <h4>Aug 01, 2022</h4>
+            </div>
+            <div class="fe-detail">
+              <h2>
+                EVIFY Raises $100,000 Through We Founder Circle
+                <hr />
+              </h2>
+              <p>
+                Evify an EV logistics startup, raised $100,000 in a Seed funding
+                round led by We Founder Circle. The round also witnessed
+                participation from angel investors like Gaurav Singhvi,
+              </p>
+              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="page-hr" />
     </section>
 
 

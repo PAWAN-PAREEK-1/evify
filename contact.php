@@ -85,8 +85,10 @@
           <img src="img/contact.svg" alt="Contact Image" />
         </div>
       </section>
-      <section class="feature-section">
-        <h2>Featured In</h2>
+
+    <section class="feature-section">
+      <h2>Featured In</h2>
+      <div class="fe01">
         <div class="feature-boxes">
           <div class="box">
             <div class="box-img">
@@ -143,9 +145,10 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <hr id="page-hr" />
-      </section>
+      <hr id="page-hr" />
+    </section>
 
 
 

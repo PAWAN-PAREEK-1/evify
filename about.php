@@ -29,6 +29,7 @@
     </section>
 
     <section class="aboutus">
+      <h1>About Us</h1>
       <div class="about-dec first-dec">
         <div class="about-left">
           <img src="img/about1.svg" alt="" />
@@ -57,7 +58,7 @@
           </p>
         </div>
       </div>
-      <div class="about-dec">
+      <div class="about-dec bb">
         <div class="about-right">
           <h3>Mr. Devrishi Arora</h3>
           <h3>the Founder, CEO & COO of Evify</h3>
@@ -87,6 +88,7 @@
         </div>
       </div>
     </section>
+
 
     <section class="clients">
       <h1>Our Super Clients</h1>
