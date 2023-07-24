@@ -1769,7 +1769,64 @@ header .nav-show>div {
   .hero img{
     display: none;
   }
+  .main-container {
 
+    flex-direction: column-reverse;
+  }
+  .right-side img {
+    width: 20.25363rem;
+    height: 20.25363rem;
+  }
+  .partner {
+    padding: 0.95rem;
+  }
+  .left-side h2{
+    font-size: 0.8rem;
+  }
+  .left-side h1{
+    font-size: 1.25rem;
+  }
+  .icon h3{
+    font-size: 1.25rem;
+  }
+  .toggle-link{
+    font-size: 1rem;
+  }
+  .benefits{
+    flex-direction: column;
+    padding-inline: 0;
+  }
+  .rider h2{
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .rider h1{
+    font-size: 1rem;
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .rider{
+    padding: 20px;
+  }
+  .icon img{
+    width: 3.625rem;
+height: 3.625rem;
+  }
+  .benefits .left-side, .benefits .right-side {
+   gap: 0.5rem;
+  }
+  .benefits{
+    gap: 1rem;
+    display: block;
+  }
+  .center-links{
+    margin-bottom: 0;
+  }
+  .right-side {
+  
+    justify-content: center;
+    display: flex;
+  }
 
 
 

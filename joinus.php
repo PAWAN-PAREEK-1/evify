@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EVIFY | Join Us </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/663160c747.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -57,23 +56,19 @@
                                 <h3>No Insurance cost</h3>
                             </div>
 
-                        <div class="icon">
-                            <img src="img/time.svg" alt="Small Image">
-                            <h3>No Down Time </h3>
-                        </div>
+                            <div class="icon">
+                                <img src="img/time.svg" alt="Small Image">
+                                <h3>No Down Time </h3>
+                            </div>
                         </div>
                     </div>
 
 
-                <div class="right-side">
-                    <img src="img/joinhero.svg" alt="Right Image">
+                    <div class="right-side">
+                        <img src="img/joinhero.svg" alt="Right Image">
+                    </div>
                 </div>
-                </div>
-            </div>
-
-        </div>
-        <div id="div2" class="toggle-item">
-            <div class="rider">
+                <div class="rider">
                     <h2>Rider Benefits</h2>
                     <h1>Job Part</h1>
                     <div class="benefits">
@@ -86,10 +81,7 @@
                                 <img src="img/emi.svg" alt="Small Image">
                                 <h3>Multiple income</h3>
                             </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Support to Increase Your Earning</h3>
-                            </div>
+                         
                             <div class="icon">
                                 <img src="img/emi.svg" alt="Small Image">
                                 <h3>Weekly incetive and gift</h3>
@@ -122,6 +114,92 @@
 
                         </div>
                     </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="div2" class="toggle-item">
+        <div class="main-container">
+                    <div class="left-side">
+                        <h2>Rider Benefits</h2>
+                        <h1>Bike Part</h1>
+                        <div class="main-icon">
+                            <div class="icon">
+                                <img src="img/petrol.svg" alt="Small Image">
+                                <h3>No Petrol Cost</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>No Emi Cost</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/main.svg" alt="Small Image">
+                                <h3>No Maintenance cost</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/ins.svg" alt="Small Image">
+                                <h3>No Insurance cost</h3>
+                            </div>
+
+                            <div class="icon">
+                                <img src="img/time.svg" alt="Small Image">
+                                <h3>No Down Time </h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="right-side">
+                        <img src="img/joinhero.svg" alt="Right Image">
+                    </div>
+                </div>
+                <div class="rider">
+                    <h2>Rider Benefits</h2>
+                    <h1>Job Part</h1>
+                    <div class="benefits">
+                        <div class="left-side">
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>Job guarantees</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>Multiple income</h3>
+                            </div>
+
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>Weekly incetive and gift</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>Fun Game</h3>
+                            </div>
+
+                        </div>
+                        <div class="right-side">
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>No Fees</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>Joining Bonus</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>Free T-shirt, Powerbank, Bag</h3>
+                            </div>
+                            <div class="icon">
+                                <img src="img/emi.svg" alt="Small Image">
+                                <h3>Advace Salary vai Fatak Pay</h3>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -136,8 +214,8 @@
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
     <script>
-        $(document).ready(function () {
-            $(".toggle-link").on("click", function (e) {
+        $(document).ready(function() {
+            $(".toggle-link").on("click", function(e) {
                 e.preventDefault();
                 const targetDiv = $(this).data("target");
                 $(".toggle-item").hide();
@@ -205,67 +283,67 @@
     </section>
 
     <section class="feature-section">
-      <h2>Featured In</h2>
-      <div class="fe01">
-        <div class="feature-boxes">
-          <div class="box">
-            <div class="box-img">
-              <img src="img/fe1.svg" alt="Image 1" />
-              <h4>Aug 01, 2022</h4>
+        <h2>Featured In</h2>
+        <div class="fe01">
+            <div class="feature-boxes">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/fe1.svg" alt="Image 1" />
+                        <h4>Aug 01, 2022</h4>
+                    </div>
+                    <div class="fe-detail">
+                        <h2>
+                            EVIFY Raises $100,000 Through We Founder Circle
+                            <hr />
+                        </h2>
+                        <p>
+                            Evify an EV logistics startup, raised $100,000 in a Seed funding
+                            round led by We Founder Circle. The round also witnessed
+                            participation from angel investors like Gaurav Singhvi,
+                        </p>
+                        <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/fe2.svg" alt="Image 1" />
+                        <h4>Aug 01, 2022</h4>
+                    </div>
+                    <div class="fe-detail">
+                        <h2>
+                            EVIFY Raises $100,000 Through We Founder Circle
+                            <hr />
+                        </h2>
+                        <p>
+                            Evify an EV logistics startup, raised $100,000 in a Seed funding
+                            round led by We Founder Circle. The round also witnessed
+                            participation from angel investors like Gaurav Singhvi,
+                        </p>
+                        <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/fe3.svg" alt="Image 1" />
+                        <h4>Aug 01, 2022</h4>
+                    </div>
+                    <div class="fe-detail">
+                        <h2>
+                            EVIFY Raises $100,000 Through We Founder Circle
+                            <hr />
+                        </h2>
+                        <p>
+                            Evify an EV logistics startup, raised $100,000 in a Seed funding
+                            round led by We Founder Circle. The round also witnessed
+                            participation from angel investors like Gaurav Singhvi,
+                        </p>
+                        <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+                    </div>
+                </div>
             </div>
-            <div class="fe-detail">
-              <h2>
-                EVIFY Raises $100,000 Through We Founder Circle
-                <hr />
-              </h2>
-              <p>
-                Evify an EV logistics startup, raised $100,000 in a Seed funding
-                round led by We Founder Circle. The round also witnessed
-                participation from angel investors like Gaurav Singhvi,
-              </p>
-              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
-            </div>
-          </div>
-          <div class="box">
-            <div class="box-img">
-              <img src="img/fe2.svg" alt="Image 1" />
-              <h4>Aug 01, 2022</h4>
-            </div>
-            <div class="fe-detail">
-              <h2>
-                EVIFY Raises $100,000 Through We Founder Circle
-                <hr />
-              </h2>
-              <p>
-                Evify an EV logistics startup, raised $100,000 in a Seed funding
-                round led by We Founder Circle. The round also witnessed
-                participation from angel investors like Gaurav Singhvi,
-              </p>
-              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
-            </div>
-          </div>
-          <div class="box">
-            <div class="box-img">
-              <img src="img/fe3.svg" alt="Image 1" />
-              <h4>Aug 01, 2022</h4>
-            </div>
-            <div class="fe-detail">
-              <h2>
-                EVIFY Raises $100,000 Through We Founder Circle
-                <hr />
-              </h2>
-              <p>
-                Evify an EV logistics startup, raised $100,000 in a Seed funding
-                round led by We Founder Circle. The round also witnessed
-                participation from angel investors like Gaurav Singhvi,
-              </p>
-              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
-            </div>
-          </div>
         </div>
-      </div>
 
-      <hr id="page-hr" />
+        <hr id="page-hr" />
     </section>
 
 
