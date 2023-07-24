@@ -33,13 +33,14 @@ body {}
   align-items: center;
 }
 
-.head a {
+ #email1,#email {
   color: #dcdcdc;
   font-family: Montserrat;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
 }
 
 .head-right {
@@ -1450,9 +1451,28 @@ line-height: 1.6875rem; /* 135% */
   .head-right a {
     display: block;
   }
+  .head {
+    padding: 0.95rem;
 
+  }
+  #email1{
+    display: none;
+  }
+  .social{
+    display: flex;
+    gap: 0.5rem;
+  }
+  .head-right hr{
+    display: none;
+  }
+  .head-right {
 
-
+    width: 100%;
+    justify-content: space-between;
+}
+nav{
+  padding-inline: 0.95rem;
+}
 
 
 

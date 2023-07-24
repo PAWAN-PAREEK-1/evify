@@ -1,12 +1,16 @@
 <header>
     <div class="head">
-        <a href="#">Loremipsum5869@gmail.com</a>
+        <a href="#"   id="email1">Loremipsum5869@gmail.com</a>
         <div class="head-right">
-            <a href="#">+36-544-455-4547</a>
+            <div class="email">
+            <a href="#" id="email">+36-544-455-4547</a>
+            </div>
             <hr>
+            <div class="social">
             <a href=""  ><i id="social" class="fa-brands fa-facebook-f fa-lg" style="color: #fff;"></i></a>
             <a href="" ><i id="social" class="fa-brands fa-twitter fa-lg" style="color: #fff;"></i></a>
             <a href="" ><i id="social" class="fa-brands fa-instagram fa-lg" style="color: #fff;"></i></a>
+        </div>
         </div>
     </div>
 
