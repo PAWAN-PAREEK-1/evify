@@ -1218,7 +1218,7 @@ line-height: 1.75rem; /* 116.667% */
 
 
 
-
+/* =============================toogle navbar */
 
 
 
@@ -1263,6 +1263,7 @@ header .nav-phone * {
   display: none;
   align-items: center;
   transition: all 200ms;
+  border: none;
 }
 
 .nav-button svg {
@@ -1280,13 +1281,21 @@ header .nav-phone * {
 }
 header .nav-show {
   display: block;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
 
 }
 
 header .nav-show>div {
   transform: translate(0, 0);
 }
+
+
+
+
+
+
+/*
+==========================================toogle navbar */
 
 
 
@@ -1316,6 +1325,9 @@ header .nav-show>div {
   .index-hero {
 
     padding: 2.06rem 0.95rem;
+  }
+  .menus{
+    display: none;
   }
   .hero-left h3 {
 
