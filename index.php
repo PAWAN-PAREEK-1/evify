@@ -28,8 +28,7 @@
       <div class="hero-left">
         <img src="img/herocircel.svg" alt="" id="circel" />
         <h3>India's First <img src="img/heropin.svg" alt="" /></h3>
-        <h1>CARBON OFF
-       <span>NATURE</span> ON</h1>
+        <h1>CARBON OFF <span>NATURE</span> ON</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisi ng elit. Mauris
           lacinia
@@ -49,9 +48,9 @@
       <p id="reason">
         A few reasons why we might be the<span> right choice</span>
       </p>
+      <img src="img/thunder2.svg" alt="" id="thunder" />
       <div class="why-1">
         <div class="main-why" style="padding-bottom: 11.4rem">
-          <img src="img/thunder2.svg" alt="" id="thunder">
           <div class="why-box-1">
             <div class="choose-box">
               <h3>Carbon Conscious</h3>
@@ -293,8 +292,9 @@
           <img src="img/vision.svg" alt="" />
           <h1>Our Vision</h1>
           <p>
-            To create a complete ecosystem for the LML sector in all the Tier II
-            and III cities of India
+            To deploy our electric fleet to all the E-comm giants and
+            decarbonise last mile logistics sector in Tier II and Tier III
+            cities of india by 2030
           </p>
         </div>
         <div class="v-box">
@@ -309,27 +309,26 @@
       </div>
     </section>
     <!-- Add this script to the end of your HTML body -->
-<script>
-  // JavaScript to handle sliding v-boxes
-  const sliderContainer = document.querySelector(".vision");
-  const prevButton = document.getElementById("prevButton");
-  const nextButton = document.getElementById("nextButton");
+    <script>
+      // JavaScript to handle sliding v-boxes
+      const sliderContainer = document.querySelector(".vision");
+      const prevButton = document.getElementById("prevButton");
+      const nextButton = document.getElementById("nextButton");
 
-  prevButton.addEventListener("click", () => {
-    sliderContainer.scrollBy({
-      left: -sliderContainer.clientWidth,
-      behavior: "smooth",
-    });
-  });
+      prevButton.addEventListener("click", () => {
+        sliderContainer.scrollBy({
+          left: -sliderContainer.clientWidth,
+          behavior: "smooth",
+        });
+      });
 
-  nextButton.addEventListener("click", () => {
-    sliderContainer.scrollBy({
-      left: sliderContainer.clientWidth,
-      behavior: "smooth",
-    });
-  });
-</script>
-
+      nextButton.addEventListener("click", () => {
+        sliderContainer.scrollBy({
+          left: sliderContainer.clientWidth,
+          behavior: "smooth",
+        });
+      });
+    </script>
 
     <section class="aboutus">
       <h1>About Us</h1>
@@ -337,7 +336,6 @@
         <div class="about-left">
           <img src="img/about1.svg" alt="" />
         </div>
-
 
         <div class="about-right">
           <h1>About Us</h1>
@@ -396,70 +394,72 @@
     <section class="clients">
       <h1>Our Super Clients</h1>
       <div class="comp">
-      <div class="com">
-        <img src="img/swiggy.svg" alt="" />
-        <img src="img/blue dart.svg" alt="" />
-        <img src="img/bigbasket.svg" alt="" />
-        <img src="img/flipkart.svg" alt="" />
-      </div>
+        <div class="com">
+          <img src="img/swiggy.svg" alt="" />
+          <img src="img/blue dart.svg" alt="" />
+          <img src="img/bigbasket.svg" alt="" />
+          <img src="img/flipkart.svg" alt="" />
+        </div>
       </div>
     </section>
 
     <section class="feature-section">
       <h2>Featured In</h2>
-      <div class="feature-boxes">
-        <div class="box">
-          <div class="box-img">
-            <img src="img/fe1.svg" alt="Image 1" />
-            <h4>Aug 01, 2022</h4>
+      <div class="fe01">
+        <div class="feature-boxes">
+          <div class="box">
+            <div class="box-img">
+              <img src="img/fe1.svg" alt="Image 1" />
+              <h4>Aug 01, 2022</h4>
+            </div>
+            <div class="fe-detail">
+              <h2>
+                EVIFY Raises $100,000 Through We Founder Circle
+                <hr />
+              </h2>
+              <p>
+                Evify an EV logistics startup, raised $100,000 in a Seed funding
+                round led by We Founder Circle. The round also witnessed
+                participation from angel investors like Gaurav Singhvi,
+              </p>
+              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+            </div>
           </div>
-          <div class="fe-detail">
-            <h2>
-              EVIFY Raises $100,000 Through We Founder Circle
-              <hr />
-            </h2>
-            <p>
-              Evify an EV logistics startup, raised $100,000 in a Seed funding
-              round led by We Founder Circle. The round also witnessed
-              participation from angel investors like Gaurav Singhvi,
-            </p>
-            <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+          <div class="box">
+            <div class="box-img">
+              <img src="img/fe2.svg" alt="Image 1" />
+              <h4>Aug 01, 2022</h4>
+            </div>
+            <div class="fe-detail">
+              <h2>
+                EVIFY Raises $100,000 Through We Founder Circle
+                <hr />
+              </h2>
+              <p>
+                Evify an EV logistics startup, raised $100,000 in a Seed funding
+                round led by We Founder Circle. The round also witnessed
+                participation from angel investors like Gaurav Singhvi,
+              </p>
+              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+            </div>
           </div>
-        </div>
-        <div class="box">
-          <div class="box-img">
-            <img src="img/fe2.svg" alt="Image 1" />
-            <h4>Aug 01, 2022</h4>
-          </div>
-          <div class="fe-detail">
-            <h2>
-              EVIFY Raises $100,000 Through We Founder Circle
-              <hr />
-            </h2>
-            <p>
-              Evify an EV logistics startup, raised $100,000 in a Seed funding
-              round led by We Founder Circle. The round also witnessed
-              participation from angel investors like Gaurav Singhvi,
-            </p>
-            <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="box-img">
-            <img src="img/fe3.svg" alt="Image 1" />
-            <h4>Aug 01, 2022</h4>
-          </div>
-          <div class="fe-detail">
-            <h2>
-              EVIFY Raises $100,000 Through We Founder Circle
-              <hr />
-            </h2>
-            <p>
-              Evify an EV logistics startup, raised $100,000 in a Seed funding
-              round led by We Founder Circle. The round also witnessed
-              participation from angel investors like Gaurav Singhvi,
-            </p>
-            <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+          <div class="box">
+            <div class="box-img">
+              <img src="img/fe3.svg" alt="Image 1" />
+              <h4>Aug 01, 2022</h4>
+            </div>
+            <div class="fe-detail">
+              <h2>
+                EVIFY Raises $100,000 Through We Founder Circle
+                <hr />
+              </h2>
+              <p>
+                Evify an EV logistics startup, raised $100,000 in a Seed funding
+                round led by We Founder Circle. The round also witnessed
+                participation from angel investors like Gaurav Singhvi,
+              </p>
+              <a href="">READ MORE <img src="img/nextarrow2.svg" alt="" /></a>
+            </div>
           </div>
         </div>
       </div>
@@ -477,18 +477,42 @@
         </p>
         <form>
           <div class="form-row">
-            <input type="text" id="name" name="name" required placeholder="Name"/>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Name"
+            />
           </div>
           <div class="form-row">
             <div class="form-group">
-              <input type="email" id="email" name="email" required placeholder="Email"/>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+              />
             </div>
             <div class="form-group">
-              <input type="tel" id="contact-no" name="contact-no" required placeholder="Contact Us"/>
+              <input
+                type="tel"
+                id="contact-no"
+                name="contact-no"
+                required
+                placeholder="Contact Us"
+              />
             </div>
           </div>
           <div class="form-row">
-            <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Message"
+              required
+            ></textarea>
           </div>
           <button type="submit">Submit</button>
         </form>
