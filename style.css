@@ -283,10 +283,11 @@ nav {
 }
 
 .hero-left {
-  padding-right: 13.06rem;
+  padding-right: 3.06rem;
 }
 
 #circel {
+  display: none !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -433,8 +434,12 @@ nav {
 
 .wwd-img {
   /* background-color: green; */
-  box-shadow: -10px -10px 0px #87c332;
+  border-left: 5px solid #87c332;
+  border-top: 5px solid #87c332;
   border-radius: 1.5625rem;
+  box-shadow: 0px 30px 110px 0px rgba(0, 0, 0, 0.10);
+
+
 }
 
 .wwd-img img {
@@ -1025,6 +1030,7 @@ form .form-row textarea:focus,
   background: linear-gradient(#BEDE90, #F3F9EB);
   position: relative;
   overflow: hidden;
+  padding-inline: 6.25rem;
 }
 
 .hero h1 {
@@ -1034,15 +1040,27 @@ form .form-row textarea:focus,
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-align: center;
+  text-align: left;
   padding-block: 6.94rem;
 }
 
-.hero img {
+.hero .circel-main {
   position: absolute;
   top: 0;
-  left: 36.8%;
+  left: 5.8%;
 }
+.circel-joinus{
+  left: 0.8% !important;
+}
+.circel-about{
+  left: 3.8% !important;
+}
+.truck-hero img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 
 .con {
   margin-top: 6.25rem;
@@ -1303,6 +1321,9 @@ header .nav-show>div {
 #social {
 	margin-right: 10px;
 }
+.circel-main2{
+  display: none;
+}
 
 
 
@@ -1362,6 +1383,10 @@ header .nav-show>div {
   }
   .get2{
     display: none;
+  }
+  .aboutus img{
+    width: 100%;
+
   }
 
   .menus {
@@ -1766,8 +1791,12 @@ header .nav-show>div {
     margin-top: 20px;
     justify-content: center;
   }
-  .hero img{
+  .hero .circel-main {
     display: none;
+  }
+  .truck-hero img{
+    width: 10.33956rem;
+height: 5.16238rem;
   }
   .main-container {
 
@@ -1788,6 +1817,7 @@ header .nav-show>div {
   }
   .icon h3{
     font-size: 1.25rem;
+    text-align: left;
   }
   .toggle-link{
     font-size: 1rem;
@@ -1823,9 +1853,28 @@ height: 3.625rem;
     margin-bottom: 0;
   }
   .right-side {
-  
+
     justify-content: center;
     display: flex;
+  }
+  .hero-right{
+    width: 43%;
+  }
+  .hero-left{
+    width: 57%;
+  }
+  .hero{
+    padding: 2.25rem !important;
+  }
+  .hero h1{
+    font-size: 1.5rem;
+    padding-block: 40px;
+  }
+  .circel-main2{
+    display: block;
+  }
+  .footer-last h1{
+    font-size: 0.8rem;
   }
 
 

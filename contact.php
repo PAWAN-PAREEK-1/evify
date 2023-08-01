@@ -25,7 +25,11 @@
 
     <section class="hero">
         <h1>Contact Us</h1>
-        <img src="img/circle.svg" alt="">
+        <img src="img/circle.svg" alt="" class="circel-main">
+        <!-- <img src="img/circel2.svg" alt="" class="circel-main2"> -->
+        <div class="truck-hero">
+      <img src="img/truck2.svg" alt="">
+     </div>
     </section>
 
 

@@ -20,7 +20,10 @@
 
     <section class="hero">
         <h1>Join Us</h1>
-        <img src="img/circle.svg" alt="">
+        <img src="img/circle.svg" alt="" class="circel-joinus circel-main">
+        <div class="truck-hero">
+      <img src="img/truck2.svg" alt="">
+     </div>
     </section>
 
 
@@ -81,7 +84,7 @@
                                 <img src="img/emi.svg" alt="Small Image">
                                 <h3>Multiple income</h3>
                             </div>
-                         
+
                             <div class="icon">
                                 <img src="img/emi.svg" alt="Small Image">
                                 <h3>Weekly incetive and gift</h3>

@@ -25,7 +25,10 @@
 
     <section class="hero">
       <h1>About Us</h1>
-      <img src="img/circle.svg" alt="" />
+      <img src="img/circle.svg" alt="" class="circel-about circel-main"/>
+     <div class="truck-hero">
+      <img src="img/truck2.svg" alt="">
+     </div>
     </section>
 
     <section class="aboutus">
