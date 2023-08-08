@@ -22,8 +22,8 @@
         <h1>Join Us</h1>
         <img src="img/circle.svg" alt="" class="circel-joinus circel-main">
         <div class="truck-hero">
-      <img src="img/truck2.svg" alt="">
-     </div>
+            <img src="img/truck2.svg" alt="">
+        </div>
     </section>
 
 
@@ -37,173 +37,176 @@
 
         <div class="toggle-container">
             <div id="div1" class="toggle-item">
-                <div class="main-container">
-                    <div class="left-side">
-                        <h2>Rider Benefits</h2>
-                        <h1>Bike Part</h1>
-                        <div class="main-icon">
-                            <div class="icon">
-                                <img src="img/petrol.svg" alt="Small Image">
-                                <h3>No Petrol Cost</h3>
+                <section class="contact-section">
+                    <div class="contact-content">
+                        <h2>Contact</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            sit amet rutrum nisi. Sed ultrices dolor lorem, convallis porta sapien
+                            ultricies quis. Phasellus consectetur faucibus est
+                        </p>
+                        <form>
+                            <div class="form-row">
+                                <input type="text" id="name" name="name" required placeholder="Name" />
                             </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>No Emi Cost</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" required placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="contact-no" name="contact-no" required placeholder="Contact Us" />
+                                </div>
                             </div>
-                            <div class="icon">
-                                <img src="img/main.svg" alt="Small Image">
-                                <h3>No Maintenance cost</h3>
+                            <div class="form-row">
+                                <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
                             </div>
-                            <div class="icon">
-                                <img src="img/ins.svg" alt="Small Image">
-                                <h3>No Insurance cost</h3>
-                            </div>
-
-                            <div class="icon">
-                                <img src="img/time.svg" alt="Small Image">
-                                <h3>No Down Time </h3>
-                            </div>
-                        </div>
+                            <button type="submit">Submit</button>
+                        </form>
                     </div>
-
-
-                    <div class="right-side">
-                        <img src="img/joinhero.svg" alt="Right Image">
+                    <div class="contact-image">
+                        <img src="img/contact.svg" alt="Contact Image" />
                     </div>
-                </div>
-                <div class="rider">
-                    <h2>Rider Benefits</h2>
-                    <h1>Job Part</h1>
-                    <div class="benefits">
-                        <div class="left-side">
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Job guarantees</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Multiple income</h3>
-                            </div>
-
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Weekly incetive and gift</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Fun Game</h3>
-                            </div>
-
-                        </div>
-                        <div class="right-side">
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>No Fees</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Joining Bonus</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Free T-shirt, Powerbank, Bag</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Advace Salary vai Fatak Pay</h3>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
 
         </div>
         <div id="div2" class="toggle-item">
-        <div class="main-container">
-                    <div class="left-side">
-                        <h2>Rider Benefits</h2>
-                        <h1>Bike Part</h1>
-                        <div class="main-icon">
-                            <div class="icon">
-                                <img src="img/petrol.svg" alt="Small Image">
-                                <h3>No Petrol Cost</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>No Emi Cost</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/main.svg" alt="Small Image">
-                                <h3>No Maintenance cost</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/ins.svg" alt="Small Image">
-                                <h3>No Insurance cost</h3>
-                            </div>
-
-                            <div class="icon">
-                                <img src="img/time.svg" alt="Small Image">
-                                <h3>No Down Time </h3>
-                            </div>
+            <div class="main-container">
+                <div class="left-side">
+                    <h2>Rider Benefits</h2>
+                    <h1>Bike Part</h1>
+                    <div class="main-icon">
+                        <div class="icon">
+                            <img src="img/petrol.svg" alt="Small Image">
+                            <h3>No Petrol Cost</h3>
                         </div>
-                    </div>
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>No Emi Cost</h3>
+                        </div>
+                        <div class="icon">
+                            <img src="img/main.svg" alt="Small Image">
+                            <h3>No Maintenance cost</h3>
+                        </div>
+                        <div class="icon">
+                            <img src="img/ins.svg" alt="Small Image">
+                            <h3>No Insurance cost</h3>
+                        </div>
 
-
-                    <div class="right-side">
-                        <img src="img/joinhero.svg" alt="Right Image">
+                        <div class="icon">
+                            <img src="img/time.svg" alt="Small Image">
+                            <h3>No Down Time </h3>
+                        </div>
                     </div>
                 </div>
-                <div class="rider">
-                    <h2>Rider Benefits</h2>
-                    <h1>Job Part</h1>
-                    <div class="benefits">
-                        <div class="left-side">
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Job guarantees</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Multiple income</h3>
-                            </div>
 
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Weekly incetive and gift</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Fun Game</h3>
-                            </div>
 
+                <div class="right-side">
+                    <img src="img/joinhero.svg" alt="Right Image">
+                </div>
+            </div>
+            <div class="rider">
+                <h2>Rider Benefits</h2>
+                <h1>Job Part</h1>
+                <div class="benefits">
+                    <div class="left-side">
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>Job guarantees</h3>
                         </div>
-                        <div class="right-side">
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>No Fees</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Joining Bonus</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Free T-shirt, Powerbank, Bag</h3>
-                            </div>
-                            <div class="icon">
-                                <img src="img/emi.svg" alt="Small Image">
-                                <h3>Advace Salary vai Fatak Pay</h3>
-                            </div>
-
-
-
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>Multiple income</h3>
                         </div>
+
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>Weekly incetive and gift</h3>
+                        </div>
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>Fun Game</h3>
+                        </div>
+
+                    </div>
+                    <div class="right-side">
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>No Fees</h3>
+                        </div>
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>Joining Bonus</h3>
+                        </div>
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>Free T-shirt, Powerbank, Bag</h3>
+                        </div>
+                        <div class="icon">
+                            <img src="img/emi.svg" alt="Small Image">
+                            <h3>Advace Salary vai Fatak Pay</h3>
+                        </div>
+
+
+
                     </div>
                 </div>
             </div>
+            <section class="contact-section" id="conact-sec">
+      <div class="contact-content">
+        <h2>Contact</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          sit amet rutrum nisi. Sed ultrices dolor lorem, convallis porta sapien
+          ultricies quis. Phasellus consectetur faucibus est
+        </p>
+        <form>
+          <div class="form-row">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Name"
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                id="contact-no"
+                name="contact-no"
+                required
+                placeholder="Contact Us"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="contact-image">
+        <img src="img/contact.svg" alt="Contact Image" />
+      </div>
+    </section>
+        </div>
 
         </div>
         </div>
@@ -244,7 +247,7 @@
 
 
 
-    <section class="contact-section con">
+    <!-- <section class="contact-section con">
         <div class="contact-content">
             <h2>Contact</h2>
             <p>
@@ -273,7 +276,7 @@
         <div class="contact-image">
             <img src="img/contact.svg" alt="Contact Image" />
         </div>
-    </section>
+    </section> -->
 
     <section class="clients join">
         <h1>Our Super Clients</h1>

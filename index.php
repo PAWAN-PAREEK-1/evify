@@ -102,9 +102,9 @@
         <h1>What We Do?</h1>
         <div class="fq">
           <h2>
-            Last mile delivery through 2W<a href="">
+            Last mile delivery through 2W
               <img src="img/plus.svg" alt=""
-            /></a>
+            />
           </h2>
           <div class="f2">
             <img src="img/greennext.svg" alt="" />
@@ -134,9 +134,9 @@
         <hr />
         <div class="fq">
           <h2>
-            First mile delivery through 3W<a href="">
+            First mile delivery through 3W
               <img src="img/plus.svg" alt=""
-            /></a>
+            />
           </h2>
           <div class="f2">
             <img src="img/greennext.svg" alt="" />
@@ -159,7 +159,7 @@
         <div class="fq">
           <h2>
             First mile delivery through 3W
-            <a href=""> <img src="img/plus.svg" alt="" /></a>
+               <img src="img/plus.svg" alt="" />
           </h2>
           <div class="f2">
             <img src="img/greennext.svg" alt="" />
@@ -277,7 +277,7 @@
       </div>
     </section>
 
-    <section class="vision-mission">
+    <section class="vision-mission" id="vision-mission">
       <div class="vision">
         <div class="v-box">
           <img src="img/mission.svg" alt="" />
@@ -331,7 +331,7 @@
     </script>
 
     <section class="aboutus">
-      <h1>About Us</h1>
+      <h1 id="about-desk">About Us</h1>
       <div class="about-dec first-dec">
         <div class="about-left">
           <img src="img/about1.svg" alt="" />

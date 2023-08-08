@@ -426,7 +426,7 @@ nav {
 
 /* Your existing CSS */
 .wwd {
-  padding: 6.25rem;
+  padding:0rem 6.25rem 6.25rem 6.25rem;
   display: flex;
   align-items: center;
   gap: 3.94rem;
@@ -525,9 +525,10 @@ nav {
 }
 
 .info1 img {
-  border-radius: 6.25rem 0 0 6.25rem;
+	border-radius: 6.25rem 0 0 6.25rem;
+	height: auto;
+	padding-block: 7rem;
 }
-
 .info-con {
   padding: 2rem 1.87rem;
   background-color: #fff;
@@ -915,6 +916,7 @@ nav {
   background: #F5F5F5;
   margin-bottom: 6.5rem;
   padding: 0 6.25rem 0;
+  flex-direction: row-reverse;
 }
 
 .contact-content {
@@ -944,6 +946,9 @@ nav {
   line-height: 1.4375rem;
   /* 143.75% */
   letter-spacing: -0.0625rem;
+}
+#conact-sec{
+  margin-top: 6.25rem;
 }
 
 .form-row {
@@ -1523,6 +1528,9 @@ header .nav-show>div {
   .info-con {
     position: initial;
   }
+  .info1 img {
+    height: auto;
+  }
 
   #nextarrow,
   #prevarrow {
@@ -1909,8 +1917,23 @@ height: 3.625rem;
     scroll-snap-align: start;
     /* Align v-boxes to start position when scrolling */
   }
+  .aboutus #about-desk{
+      display: initial !important;
+      text-align: center !important;
+  }
+  #conact-sec{
+    margin-top: 0rem;
+  }
+
 
 }
+#about-desk{
+  display: none;
+}
+#vision-mission{
+  padding-bottom: 0 !important;
+}
+
 
 
 
