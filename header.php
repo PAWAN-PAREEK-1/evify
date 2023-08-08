@@ -19,13 +19,14 @@
             <a href="index.php"><img src="img/logo.svg" alt="" style="mix-blend-mode: darken;"></a>
         </div>
         <div class="menus">
-            <ul>
-                <li><a href="./index.php">Home</a></li>
-                <li><a href="./about.php">About Us</a></li>
-                <li><a href="./contact.php">Contact Us</a></li>
-                <li><a href="./joinus.php">Join Us</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="./about.php">About Us</a></li>
+            <li><a href="./contact.php">Contact Us</a></li>
+            <li><a href="./joinus.php">Join Us</a></li>
+        </ul>
+    </div>
+
         <button onclick="toggleNav()" class="nav-button">
          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="16" viewBox="0 0 21 16" fill="none">
   <g clip-path="url(#clip0_73_5026)">
@@ -71,6 +72,18 @@
                 }
             }
         </script>
+          <script>
+var currentPage = window.location.pathname.split('/').pop();
+var links = document.querySelectorAll('.menus a');
+links.forEach(function(link) {
+    var linkHref = link.getAttribute('href').split('/').pop();
+
+    if (linkHref === currentPage) {
+        link.classList.add('current');
+    }
+});
+
+    </script>
          <div class="get-quote get2">
             <a href="#">Get A Quote</a>
         </div>
